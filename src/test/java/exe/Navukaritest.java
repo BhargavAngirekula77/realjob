@@ -46,6 +46,8 @@ public class Navukaritest {
 		
 		ele.sendKeys(CommonData.name);
 		driver.findElement(By.xpath("//button[text()='Save']")).click();
+		WebElement upload= driver.findElement(By.xpath("//input[@type='file' and @id='attachCV']"));
+		upload.sendKeys(CommonData.resumePath);
 		driver.close();
 		
 	}
