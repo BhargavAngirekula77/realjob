@@ -10,9 +10,9 @@ import org.testng.annotations.Test;
 
 import genericUtility.CommonData;
 
-public class Indeedtest {
+public class Monstertest {
 	@Test
-	public void indeep() {
+	public void monster() {
 		WebDriver driver= new EdgeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
