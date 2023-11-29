@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 import genericUtility.CommonData;
 
-public class Navukari {
+public class Navukaritest {
 	@Test
 	public void job() throws Exception {
 		WebDriver driver= new EdgeDriver();

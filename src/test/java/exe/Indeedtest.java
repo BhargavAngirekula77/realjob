@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import genericUtility.CommonData;
 
-public class Indeed {
+public class Indeedtest {
 	@Test
 	public void indeep() {
 		WebDriver driver= new EdgeDriver();
