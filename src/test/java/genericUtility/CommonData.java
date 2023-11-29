@@ -7,6 +7,8 @@ public interface CommonData {
 	public String foundItPassword="bhargav@77";
 	public String indeedMail="bhargav272505@gmail.com";
 	public String resumePath="C:\\Users\\angir\\OneDrive\\Documents\\NEW RESUMES/Bhargav Angirekula.pdf";
+	public String fristName="Bhargav";
+	public String lastName="Angirekula";
 	
 
 }
