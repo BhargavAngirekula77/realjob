@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T15:13:24 IST" name="Default suite" finished-at="2023-11-29T15:13:37 IST" duration-ms="13832">
+  <suite started-at="2023-12-02T16:53:29 IST" name="Default suite" finished-at="2023-12-02T16:53:52 IST" duration-ms="23738">
     <groups>
     </groups>
-    <test started-at="2023-11-29T15:13:24 IST" name="Default test" finished-at="2023-11-29T15:13:37 IST" duration-ms="13832">
-      <class name="exe.Navukaritest">
-        <test-method signature="job()[pri:0, instance:exe.Navukaritest@18df8434]" started-at="2023-11-29T15:13:24 IST" name="job" finished-at="2023-11-29T15:13:37 IST" duration-ms="13793" status="PASS">
+    <test started-at="2023-12-02T16:53:29 IST" name="Default test" finished-at="2023-12-02T16:53:52 IST" duration-ms="23738">
+      <class name="exe.Monstertest">
+        <test-method signature="monster()[pri:0, instance:exe.Monstertest@63376bed]" started-at="2023-12-02T16:53:29 IST" name="monster" finished-at="2023-12-02T16:53:52 IST" duration-ms="23691" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- job -->
-      </class> <!-- exe.Navukaritest -->
+        </test-method> <!-- monster -->
+      </class> <!-- exe.Monstertest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
