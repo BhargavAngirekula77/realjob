@@ -1,6 +1,7 @@
 package exe;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -20,7 +21,11 @@ public class Monstertest {
 		driver.get("https://www.foundit.in/");
 		driver.findElement(By.xpath("//span[text()='Login']")).click();
 		driver.findElement(By.xpath("//input[@id='signInName']")).sendKeys(CommonData.mail,Keys.TAB,CommonData.foundItPassword,Keys.ENTER);
-		//driver.findElement(By.xpath("//button[text()='UPDATE']")).click();
+		 List<WebElement> ele1 = driver.findElements(By.xpath("//button[text()='UPDATE']"));
+		 boolean bo= !ele1.isEmpty();
+		 if(bo) {
+			 ele1.get(0).click();
+		 }
 		driver.findElement(By.xpath("//a[@class='profile-img']/img")).click();
 		driver.findElement(By.xpath("//span/i[@class='mqfisrp-edit']")).click();
 		WebElement ele=driver.findElement(By.xpath("//input[@id='name']"));
