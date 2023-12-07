@@ -31,9 +31,7 @@ public class Navukaritest {
 		
 		
 		WebElement ele= driver.findElement(By.xpath("//input[@id='name']"));
-//		Actions act=new Actions(driver);
-//		act.click(ele).perform();
-		//driver.findElement(By.xpath("//label[text()='Experienced']")).click();
+
 		ele.click();
 		Robot rob= new Robot();
 		rob.keyPress(KeyEvent.VK_CONTROL);
@@ -51,6 +49,7 @@ public class Navukaritest {
 		Thread.sleep(5000);
 		
 		upload.sendKeys(CommonData.resumePath);
+		Thread.sleep(5000);
 		driver.close();
 		
 	}

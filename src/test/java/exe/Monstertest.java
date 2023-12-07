@@ -29,6 +29,7 @@ public class Monstertest {
 		driver.findElement(By.xpath("//button[@class='btn pmedium pTB10 wt-100']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.xpath("//a/div/input[@type='file']")).sendKeys(CommonData.resumePath);
+		Thread.sleep(5000);
 		driver.close();
 
 	}
