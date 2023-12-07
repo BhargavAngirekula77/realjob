@@ -44,11 +44,11 @@ public class Navukaritest {
 		
 		ele.sendKeys(CommonData.name);
 		driver.findElement(By.xpath("//button[text()='Save']")).click();
-		Thread.sleep(2000);
-		WebElement upload= driver.findElement(By.xpath("//input[@type='file' and @id='attachCV']"));
-		Thread.sleep(5000);
-		
-		upload.sendKeys(CommonData.resumePath);
+		//Thread.sleep(2000);
+//		WebElement upload= driver.findElement(By.xpath("//input[@type='file' and @id='attachCV']"));
+//		Thread.sleep(5000);
+//		
+//		upload.sendKeys(CommonData.resumePath);
 		Thread.sleep(5000);
 		driver.close();
 		
